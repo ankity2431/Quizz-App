@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.nav-left-appname{
+    margin-left: 15px;
+}
+
+.nav-right-userProfile{
+    margin-right: 15px;
+    
+}
+
+.startquiz-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.startquiz-btn a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+  box-shadow: 20px;
+ 
+}
